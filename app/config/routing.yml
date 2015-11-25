@@ -1,10 +1,7 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
-acme_blogs:
+ais_dosens:
     type: rest
     prefix: /api
-    resource: "@AcmeBlogBundle/Resources/config/routes.yml"
+    resource: "@AisDosenBundle/Resources/config/routes.yml"
 
 NelmioApiDocBundle:
     resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
